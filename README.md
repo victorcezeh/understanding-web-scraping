@@ -1,4 +1,21 @@
+![python](https://github.com/user-attachments/assets/1facff70-9c1c-4d91-9ec4-330ce8240864)
+
 # Web Scraping Projects
+
+📖 Table of Contents
+
+- [Technologies Used](#️-technologies-used)
+- [Project Structure](#-project-structure)
+- [Projects Overview](#-projects-overview)
+- [Key Learning Concepts](#-key-learning-concepts)
+- [Getting Started](#-getting-started)
+- [Usage Examples](#-usage-examples)
+- [Skills Demonstrated](#-skills-demonstrated)
+- [Target Websites](#-target-websites)
+- [Notes](#-notes)
+- [Ethical Considerations](#-ethical-considerations)
+
+
 
 A collection of Python web scraping projects demonstrating various techniques using `requests`, `BeautifulSoup`, and `lxml`. These projects showcase fundamental web scraping concepts from basic single-page extraction to multi-page data collection.
 
@@ -187,7 +204,7 @@ while True:
 - Projects progress from basic to more advanced techniques
 - Suitable for learning and portfolio demonstration
 
-## ⚠️ Ethical Considerations
+## 🚨 Ethical Considerations
 
 - Respect rate limits and server resources
 - Use scraped data responsibly

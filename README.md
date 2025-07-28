@@ -2,6 +2,8 @@
 
 # Web Scraping Projects
 
+A collection of Python web scraping projects demonstrating various techniques using `requests`, `BeautifulSoup`, and `lxml`. These projects showcase fundamental web scraping concepts from basic single-page extraction to multi-page data collection.
+
 📖 Table of Contents
 
 - [Technologies Used](#️-technologies-used)
@@ -15,9 +17,6 @@
 - [Notes](#-notes)
 - [Ethical Considerations](#-ethical-considerations)
 
-
-
-A collection of Python web scraping projects demonstrating various techniques using `requests`, `BeautifulSoup`, and `lxml`. These projects showcase fundamental web scraping concepts from basic single-page extraction to multi-page data collection.
 
 ## 🛠️ Technologies Used
 
@@ -48,56 +47,56 @@ understanding-web-scraping/
 ## 🚀 Projects Overview
 
 ### 1. Book Ratings Scraper (`book_ratings_scraper.py`)
-**Target Site:** books.toscrape.com  
+**Target Site:** [books.toscrape.com](http://books.toscrape.com)
 **Objective:** Extract titles of all books with 2-star ratings across multiple pages (1-50)
 - Demonstrates multi-page scraping
 - CSS class-based element selection
 - List data collection
 
 ### 2. Wikipedia Elements Scraper (`wikipedia_elements_scraper.py`)
-**Target Site:** Wikipedia (Grace Hopper page)  
+**Target Site:** [Wikipedia - Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper)  
 **Objective:** Extract specific elements from table of contents
 - Shows targeted element selection
 - Working with Wikipedia's CSS structure
 - Text extraction techniques
 
 ### 3. Basic Page Scraper (`basic_page_scraper.py`)
-**Target Site:** example.com  
+**Target Site:** [example.com](https://example.com)
 **Objective:** Extract page title and paragraph content
 - Fundamental scraping concepts
 - Basic HTML element selection
 - Data type exploration
 
 ### 4. Wikipedia Image Downloader (`wikipedia_image_downloader.py`)
-**Target Site:** Wikipedia (Deep Blue chess computer page)  
+**Target Site:** [Wikipedia - Deep Blue (chess computer)](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)) 
 **Objective:** Extract and download images from Wikipedia pages
 - Image URL extraction
 - Binary file downloading
 - File I/O operations
 
 ### 5. Quotes Scraper (`quotes_scraper.py`)
-**Target Site:** quotes.toscrape.com  
+**Target Site:** [quotes.toscrape.com](http://quotes.toscrape.com)
 **Objective:** Collect all quotes from the first page
 - CSS class selection
 - Text content extraction
 - List building
 
 ### 6. Authors Scraper (`authors_scraper.py`)
-**Target Site:** quotes.toscrape.com  
+**Target Site:** [quotes.toscrape.com](http://quotes.toscrape.com)  
 **Objective:** Extract unique author names from the first page
 - Set usage for duplicate removal
 - Author name collection
 - Unique data handling
 
 ### 7. Top Tags Scraper (`top_tags_scraper.py`)
-**Target Site:** quotes.toscrape.com  
+**Target Site:** [quotes.toscrape.com](http://quotes.toscrape.com)  
 **Objective:** Extract the top ten tags from the homepage sidebar
 - Sidebar content scraping
 - Text cleaning with `.strip()`
 - Popular content extraction
 
 ### 8. Multi-Page Authors Scraper (`multi_page_authors_scraper.py`)
-**Target Site:** quotes.toscrape.com  
+**Target Site:** [quotes.toscrape.com](http://quotes.toscrape.com)  
 **Objective:** Extract all unique authors from all pages using two different approaches
 - **Method 1:** Fixed range (when you know the total pages)
 - **Method 2:** Dynamic detection (robust approach for unknown page count)

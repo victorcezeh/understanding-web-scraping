@@ -1,5 +1,3 @@
-![python](https://github.com/user-attachments/assets/1facff70-9c1c-4d91-9ec4-330ce8240864)
-
 # Web Scraping Projects
 
 A collection of Python web scraping projects demonstrating various techniques using `requests`, `BeautifulSoup`, and `lxml`. These projects showcase fundamental web scraping concepts from basic single-page extraction to multi-page data collection.
